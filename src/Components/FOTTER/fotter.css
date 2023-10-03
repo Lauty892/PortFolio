@@ -1,0 +1,28 @@
+.fotter {
+  background-color: rgb(11, 239, 255);
+  padding: 1.5rem 0;
+  text-align: center;
+}
+
+.fotter-container {
+  max-width: 800px;
+  margin: 0 auto;
+  color: black;
+}
+
+.fotter-container h2 {
+  font-size: 2.5rem;
+  margin-bottom: 1rem;
+}
+
+.fotter-container a {
+  font-size: 1.5rem;
+  margin-inline: 1rem;
+  color: #000000;
+}
+
+.copyright {
+  margin-top: 0.5rem;
+  font-size: 0.8rem;
+  color: #000000;
+}

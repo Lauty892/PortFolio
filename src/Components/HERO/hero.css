@@ -1,0 +1,115 @@
+.hero {
+  padding-top: 8rem;
+  padding-bottom: 5rem;
+  background: linear-gradient(to right, #fc35f2, #06ffff);
+  color: #a8a8a8;
+}
+
+.hero-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.left {
+  text-align: left;
+  margin-right: 20px;
+}
+
+.right {
+  text-align: right;
+  margin-left: 20px;
+}
+
+.left h2 {
+  font-size: 36px;
+  font-weight: bold;
+  margin-bottom: 20px;
+  color: white;
+}
+
+h1 {
+  color: rgb(224, 202, 1);
+}
+
+.description {
+  font-size: 15px;
+  margin-top: 10px;
+  color: black;
+}
+
+.buttons {
+  margin-top: 5rem;
+}
+
+.buttons a {
+  display: inline-block;
+  margin-right: 20px;
+  padding: 10px 20px;
+  background-color: #171717;
+  color: white;
+  text-decoration: none;
+  font-weight: bold;
+  border-radius: 10px;
+  transition: background-color 0.3s;
+}
+
+.buttons a:hover {
+  background-color: #555;
+}
+
+.icons ul {
+  list-style: none;
+  padding: 0;
+  margin-top: 30px;
+}
+
+.icons li {
+  display: inline-block;
+  margin-right: 20px;
+}
+
+.icons a {
+  color: #ffffff;
+  font-size: 24px;
+  transition: color 0.2s;
+}
+
+.icons a:hover {
+  color: #949494;
+}
+
+.image {
+  width: 100%;
+  max-width: 400px;
+  border-radius: 50%;
+  margin: 0 auto;
+  overflow: hidden;
+  margin: 10px;
+}
+
+.image img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+@media screen and (max-width: 768px) {
+  .hero-container {
+    flex-direction: column;
+    text-align: center;
+  }
+  .left {
+    order: 2;
+    margin-top: 30px;
+  }
+  .right {
+    order: 1;
+  }
+  .image {
+    max-width: 60vw; /* Ajusta el ancho máximo en relación al ancho de la pantalla */
+  }
+}

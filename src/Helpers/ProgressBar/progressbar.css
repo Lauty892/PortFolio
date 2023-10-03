@@ -1,0 +1,39 @@
+.progress-container {
+  display: flex;
+  flex-direction: column;
+  font-weight: bold;
+  margin-bottom: 1rem;
+}
+
+.progress-text {
+  font-size: 1.3rem;
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.6rem;
+  gap: 0.5rem;
+}
+
+.progress-bar-container {
+  height: 8px;
+  width: 90%;
+  margin-left: 2rem;
+  position: relative;
+  border-radius: 20px;
+  background-color: gray;
+}
+
+.progress-bar {
+  height: 100%;
+  position: absolute;
+  border-radius: 20px;
+  background-color: rgb(255, 187, 0);
+}
+
+@keyframes progress-animation {
+  from {
+    width: 0%;
+  }
+  to {
+    width: 100%;
+  }
+}
