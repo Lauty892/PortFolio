@@ -17,7 +17,7 @@ const Hero = () => {
             sequence={[
               "Web Developer",
               2000,
-              "Therapeutic Companion",
+              "Therapeutic Aide",
               2000,
               "Full Stack",
               2000,
