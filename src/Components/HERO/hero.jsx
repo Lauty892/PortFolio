@@ -3,7 +3,7 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import "./hero.css";
-import Resume from "../../Extras/CV Lautaro Bascoy.pdf";
+import Resume from "../../Extras/cv.pdf";
 import Lauty from "../../Extras/LautyIMG.jpeg";
 
 const Hero = () => {
