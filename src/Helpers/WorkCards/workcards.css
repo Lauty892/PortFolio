@@ -13,6 +13,7 @@
   height: 15rem;
   perspective: 100rem;
   flex: 1;
+  cursor: pointer;
 }
 
 .title {
@@ -30,15 +31,15 @@
   max-width: var(--card-width);
   max-height: var(--card-height);
   margin: 0 auto;
-  border-radius: 1.8rem;
-  width: 85%;
-  height: 100%;
+  border-radius: 15%;
+  width: 75%;
+  height: 90%;
   object-fit: contain;
 }
 
 .description {
-  font-size: 0.8rem;
-  margin-bottom: 1rem;
+  font-size: xx-small;
+  margin: 1rem;
   color: azure;
 }
 
@@ -81,5 +82,15 @@
 .card-links {
   display: flex;
   justify-content: center;
-  gap: 5rem;
+  gap: 3rem;
+  margin-top: -0.5rem;
+}
+
+.card-links:hover a {
+  color: dodgerblue;
+  transition: color 0.1s ease;
+}
+
+.link-text {
+  margin-top: -0.5rem;
 }

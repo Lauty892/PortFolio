@@ -1,0 +1,67 @@
+.project-detail {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+  overflow-y: auto;
+  max-height: calc(100vh - 100px);
+  touch-action: pan-y;
+  overflow-anchor: none;
+  opacity: 1;
+  transform: translateY(-20px);
+  transition: opacity 0s ease, transform 0.3s ease;
+}
+
+.title {
+  font-size: 1.5rem;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 1rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 1rem;
+  justify-items: center;
+  width: 100%;
+}
+
+.project-image {
+  max-width: 100%;
+  height: auto;
+  border-radius: 8px;
+}
+
+.description {
+  font-size: 1rem;
+  text-align: center;
+  color: white;
+  margin-bottom: 1rem;
+}
+
+.project-links {
+  display: flex;
+  gap: 1rem;
+  justify-content: center;
+}
+
+.project-links a {
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+  color: inherit;
+}
+
+.project-links a p {
+  margin-left: 5px;
+}
+
+.link-tex {
+  margin-top: 0.1rem;
+}
+
+.project-links:hover a {
+  color: dodgerblue;
+  transition: color 0.1s ease;
+}

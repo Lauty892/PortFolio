@@ -10,7 +10,6 @@
   padding-inline: 2rem;
 }
 
-/* Heading styles */
 .skills-heading {
   display: flex;
   justify-content: left;
@@ -37,7 +36,6 @@
   justify-content: center;
 }
 
-/* Left box styles */
 .skills-left {
   width: 50%;
   padding: 1rem;
