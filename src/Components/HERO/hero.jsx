@@ -3,8 +3,8 @@ import { AiFillGithub } from "react-icons/ai";
 import { FaLinkedinIn } from "react-icons/fa";
 import { FiDownload } from "react-icons/fi";
 import "./hero.css";
-import Resume from "../../Extras/cv.pdf";
-import Lauty from "../../Extras/LautyIMG.jpeg";
+import Resume from "../../Extras/CV Lautaro Bascoy.pdf";
+import Lauty from "../../Extras/yo.jpeg";
 
 const Hero = () => {
   return (
@@ -29,10 +29,11 @@ const Hero = () => {
             className="Text"
           />
 
-          <p data-aos="fade-up" className="description">
-            I&apos;m a Junior FullStack Developer, graduated from &quot;Soy
-            Henry&quot;
-          </p>
+        <p data-aos="fade-up" className="description">
+          Junior FullStack Developer who loves turning ideas into real, web experiences.
+        </p>
+        
+
 
           <div data-aos="fade-up" className="buttons">
             <a

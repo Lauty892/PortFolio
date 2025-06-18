@@ -10,6 +10,9 @@ import imagen5 from "../../Extras/glamourglow.png";
 import eltiempo1 from "../../Extras/mobile.png"
 import eltiempo2 from "../../Extras/eltiempo.png"
 import eltiempo3 from "../../Extras/eltiempo2.png"
+import Laurente1 from "../../Extras/Responsive.png"
+import Laurente2 from "../../Extras/Vista 1.png"
+import Laurente3 from "../../Extras/Vista2.png"
 
 const WorkCards = () => {
   const [isOpenModal, setIsOpenModal] = useState(false);
@@ -31,6 +34,13 @@ const WorkCards = () => {
       img: [eltiempo2, eltiempo3, eltiempo1],
       description:
         "This project arose from a client's need to simultaneously publish their news on social media and their website. I developed the admin frontend using Tailwind, Next.js, React, and TypeScript.",
+    },
+    {
+      id: 3,
+      name: "Laurente - Real estate agency",
+      img: [Laurente2, Laurente1, Laurente3],
+      description:
+        "I designed and developed a responsive frontend for a real estate company using React, Next.js, TypeScript, and Tailwind. I built a responsive and modern frontend for a real estate company, focusing on clean design and user experience, using React, TypeScript, Next.js, and Tailwind CSS..",
     }
   ];
 
